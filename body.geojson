@@ -18,6 +18,15 @@
         "popisek": "Hlavní město České republiky na řece Vltavě, s Pražským hradem a Karlovým mostem."
       },
       "geometry": { "type": "Point", "coordinates": [14.4378, 50.0755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nazev": "Brno",
+        "popisek": "Druhé největší město ČR, metropole Jihomoravského kraje s hradem Špilberk a vilou Tugendhat (UNESCO)."
+      },
+      "geometry": { "type": "Point", "coordinates": [16.6068, 49.1951] }
     }
   ]
 }
