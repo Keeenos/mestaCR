@@ -1,0 +1,60 @@
+:root {
+  --barva-text: #1f2933;
+  --barva-pozadi: #f5f7fa;
+  --barva-akcent: #0b6e4f;
+  --vyska-hlavicky: 56px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--barva-text);
+  background: var(--barva-pozadi);
+}
+
+header {
+  height: var(--vyska-hlavicky);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background: var(--barva-akcent);
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+#mapa {
+  height: calc(100% - var(--vyska-hlavicky));
+  width: 100%;
+}
+
+.popup h2 {
+  margin: 0 0 .35rem;
+  font-size: 1.05rem;
+}
+
+.popup p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.chyba {
+  position: absolute;
+  top: calc(var(--vyska-hlavicky) + 1rem);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  max-width: 90%;
+  padding: .75rem 1rem;
+  background: #fff3f3;
+  border: 1px solid #c0392b;
+  border-radius: 4px;
+  color: #7a1f16;
+}
